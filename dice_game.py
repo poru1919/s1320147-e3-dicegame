@@ -1,5 +1,9 @@
 import random
 
+# ユーザーに名前を尋ねる
+name = input("What is your name?\n> ")
+print(f"Hello, {name}!")
+
 print("Rolling dice...")
 
 die1 = random.randint(1, 6)
